@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/linea1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -39,7 +38,7 @@
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Boton "
+        android:text="Boton2 "
 
         />
     <Space
@@ -100,8 +99,8 @@ android:gravity="center">
 
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="boton7"
-    ></Button>
+    android:text="Boton7"
+   />
 </LinearLayout>
 
 
@@ -118,11 +117,11 @@ android:gravity="center">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
-            android:text="boton8" />
+            android:text="Boton8" />
 
     <Space
         android:layout_width="20dp"
-        android:layout_height=""
+        android:layout_height="20dp"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -156,7 +155,7 @@ android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="boton10"
+                android:text="btn10"
                 android:layout_weight="1"
 
                 android:layout_gravity="end"/>
